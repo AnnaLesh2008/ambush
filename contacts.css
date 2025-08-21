@@ -1,0 +1,24 @@
+.info-title{
+    color: #242736;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 2px;
+}
+
+.info-text{
+    color: #686B78;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.contacts-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.contacts{
+    margin-bottom: 170px;
+}

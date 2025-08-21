@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+
+.about{
+    display: flex;
+    gap: 56px;
+    margin-bottom: 170px;
+}
+
+.about h3{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #242736;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+.about-text{
+    margin-left: 1px;
+}
+
+.about-text h4{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    color: #242736;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.about-text p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #686B78;
+    margin-bottom: 21px;
+   
+}
+
+.about-text p:last-child{
+    margin-bottom: 0;
+}
+

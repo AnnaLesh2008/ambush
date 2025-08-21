@@ -1,0 +1,56 @@
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 170px;
+}
+
+.popular-card{
+    width: calc(100% / 4);
+    padding: 26px 19px 35px 25px;
+    border: 1px solid #DAE3EC;
+}
+
+
+.popular-card:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.popular-card:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.popular-card_aviable{
+    display: flex; 
+    gap: 9px; 
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #139B3A;
+}
+
+.popular-card img{
+    margin-bottom: 21px;
+}
+
+.popular-card h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #242736;
+    font-family: "Russo One", sans-serif;
+    margin-bottom: 15px;
+    margin-left: calc(32px - 25px);
+}
+
+.popular-card p{
+    color: #686B78;
+    margin-left: calc(32px - 25px);
+    font-size: 14px;
+    line-height: 21px;
+
+}
+

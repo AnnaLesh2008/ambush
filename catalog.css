@@ -1,0 +1,31 @@
+.card {
+    background-color: #F9FAFB;
+    padding: 29px 26px 26px 26px;
+    width: calc((100% - 60px)/4);
+    height: 254px; 
+    position: relative;
+    border-radius: 20px; 
+    cursor: pointer;
+    
+}
+
+.card img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card h2{
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    line-height: 130%;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.card p{
+    color: #686B78;
+    font-size: 16px;
+    line-height: 21px;
+}

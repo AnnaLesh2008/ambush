@@ -1,0 +1,80 @@
+.delivery {
+    display: flex;
+    gap: 57px;
+    align-items: end;
+    position: relative;
+    overflow: visible; 
+    margin-bottom: 170px;
+}
+
+.delivery-text {
+    width: 662px;
+}
+.mob{
+    display: none;
+}
+
+.delivery-text h3{
+    color: #242736;
+    font-family: "Russo One", sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 400;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.mob h4, .deks h4{
+    text-transform: uppercase;
+    color: #242736;
+    font-family: "Russo One", sans-serif;
+    font-size: 24px;
+    line-height: 130%;
+    font-weight: 400;
+    margin-bottom: 9px;
+    letter-spacing: 0;
+}
+.mob p, .deks p{
+    color: #686B78;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 40px;
+    width: 662px;
+}
+
+.delivery-text p:last-child{
+    margin-bottom: 70px;
+}
+
+.delivery-text a{
+    display: block;
+    width: 272px;
+    padding: 24px 0;
+    background-color: #E73134;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.delivery-img {
+    width: 900px;
+    height: 601px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #145A8F;
+    background-image: url("images/mask-delivery.png");
+    overflow: visible; 
+}
+
+.delivery-img img {
+    position: absolute;
+    z-index: 2;
+    bottom: 0; 
+    right: 0;
+    max-width: none;
+    height: auto; 
+}
