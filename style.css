@@ -416,8 +416,8 @@ header{
     }
 
     .about img{
-        width: 382px;
-        height: 216px;
+        max-width: 382px;
+        height: auto;
     }
 
     .about{
@@ -498,7 +498,7 @@ header{
     }
 
     .mob p{
-        max-width: 382px ;
+        width: 95%;
         font-size: 12px;
         line-height: 18px;
         margin-bottom: 26px;
@@ -637,6 +637,9 @@ header{
         margin-bottom: 14px;
       }
 
+      .cart{
+        max-width: 198px !important;
+      }
 
       
 
@@ -655,3 +658,4 @@ header{
     }
 
   }
+
