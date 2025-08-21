@@ -8,7 +8,9 @@
 @import url("delivery.css");
 @import url("contacts.css");
 @import url("footer.css");
-
+body{
+    overflow-x: hidden
+}
 *{
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -658,4 +660,5 @@ header{
     }
 
   }
+
 
